@@ -1,0 +1,72 @@
+[
+  {
+    "address": "ZETAjseVjuFsxdRxo6MmTCvqFwb3ZHUx56Co3vCmGis",
+    "category": "omnichain",
+    "chain_id": 901,
+    "chain_name": "solana_devnet",
+    "type": "gateway"
+  },
+  {
+    "address": "0x0c487a766110c85d301d96e33579c5b317fa4995",
+    "category": "omnichain",
+    "chain_id": 84532,
+    "chain_name": "base_sepolia",
+    "type": "gateway"
+  },
+  {
+    "address": "0x6c533f7fe93fae114d0954697069df33c9b74fd7",
+    "category": "omnichain",
+    "chain_id": 7001,
+    "chain_name": "zeta_testnet",
+    "type": "gateway"
+  },
+  {
+    "address": "0xd80be3710f08d280f51115e072e5d2a778946cd7",
+    "category": "omnichain",
+    "chain_id": 84532,
+    "chain_name": "base_sepolia",
+    "type": "custody"
+  },
+  {
+    "address": "0x0c487a766110c85d301d96e33579c5b317fa4995",
+    "category": "omnichain",
+    "chain_id": 11155111,
+    "chain_name": "sepolia_testnet",
+    "type": "gateway"
+  },
+  {
+    "address": "0xd80be3710f08d280f51115e072e5d2a778946cd7",
+    "category": "omnichain",
+    "chain_id": 11155111,
+    "chain_name": "sepolia_testnet",
+    "type": "custody"
+  },
+  {
+    "address": "0x0c487a766110c85d301d96e33579c5b317fa4995",
+    "category": "omnichain",
+    "chain_id": 97,
+    "chain_name": "bsc_testnet",
+    "type": "gateway"
+  },
+  {
+    "address": "0xd80be3710f08d280f51115e072e5d2a778946cd7",
+    "category": "omnichain",
+    "chain_id": 97,
+    "chain_name": "bsc_testnet",
+    "type": "custody"
+  },
+  {
+    "address": "0x0c487a766110c85d301d96e33579c5b317fa4995",
+    "category": "omnichain",
+    "chain_id": 80002,
+    "chain_name": "amoy_testnet",
+    "type": "gateway"
+  },
+  {
+    "address": "0xd80be3710f08d280f51115e072e5d2a778946cd7",
+    "category": "omnichain",
+    "chain_id": 80002,
+    "chain_name": "amoy_testnet",
+    "type": "custody"
+  }
+]

@@ -1,0 +1,45 @@
+name: Lint TS/JS (V1)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'v1/**'
+  pull_request:
+    branches:
+      - "*"
+    paths:
+      - 'v1/**'
+    types:
+      - synchronize
+      - opened
+      - reopened
+      - ready_for_review
+
+defaults:
+  run:
+    working-directory: ./v1
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Lint JavaScript/TypeScript
+        run: yarn lint
+
+      - name: Lint Solidity
+        run: yarn lint:sol
